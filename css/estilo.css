@@ -438,6 +438,7 @@ strong{
         align-items: center;
         justify-content: center;
     }
+
     
     
     /* Consulta seccion */
@@ -493,6 +494,7 @@ strong{
         width: 300px;
         border-radius:200px ;
     }
+}
 /* Front-Back-FullStack-Media-Section */
 @media(max-width:1268px){
     .second-section-first-zone{
@@ -543,7 +545,7 @@ strong{
         width: 180%;
     }
 }
-}
+
 @media(max-width:320px){
     .titulos-personas-section{
         font-size: 1rem;
@@ -574,7 +576,16 @@ strong{
         margin-top: 240px;
     }
 }
-
+@media(max-width:400px){
+    .titulos-personas-section{
+        font-size: 1rem ;
+    }
+    .parrafo-personas-section{
+        font-size: 0.8rem;
+        margin: 0 auto;
+        width: 50%;
+    }
+}
 
 
 /*# sourceMappingURL=estilo.css.map */
