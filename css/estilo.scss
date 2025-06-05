@@ -1,0 +1,564 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(3, 20, 65) ;
+}
+/* Header */
+header{
+    width: 100%; 
+    border: 2px solid rgb(0, 0, 0);   
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.orange{
+    color: orange
+}
+.encabezado{
+    color: rgb(226, 231, 244);
+    display: grid;
+    grid-template-columns: 40% 15% 15% 15% 15%;
+    margin: 1%;
+
+}
+.left{
+    margin-left: 30%;
+}
+a:hover{
+    color: rgb(248, 124, 0);
+}
+/* first-zone */
+.first-zone{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/Codigo-ia2.png);
+    background-size: contain;
+}
+.one{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+.programar:hover{
+    color: rgb(4, 239, 4);
+}
+/* Segunda-Seccion */
+.contenedor{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+}
+.flex-order{
+    margin-top: 2%;
+    display: flex;
+    text-align: center;
+   
+}
+.seccion{
+    color: white;
+    margin: 2%;
+}
+.img{
+    width: 50%;
+    height: 50%;
+    border-radius: 1rem ;
+}
+.img-center{
+    width: 70%;
+    height: 70%;
+}
+.button{
+    color: white;
+    background-color: rgb(91, 23, 122);
+    height: 2rem;
+    width: 3rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:  rgb(66, 14, 90);
+}
+.botones{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(91, 23, 122);
+}
+h3{
+    font-size: 2rem;
+}
+/* Tercera Seccion */
+.content{
+    
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.tercer-seccion{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 20%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.progamador-img{
+    height: 350px;
+    max-height: 350px;
+    width: 350px;
+    max-width: 350px;
+    border-radius: 200px;
+}
+.texto-zona3{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+/* Tercera Seccion */
+.comunidad-seccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.chat{
+    height: 400px;
+    width: 700px;
+    border-radius: 20px;
+}
+.comunidad{
+        color: white;
+        font-size: 2rem;
+}
+.comunidad-texto{
+    width: 700px;
+    text-align: center;
+    color: white;
+}
+.a-chat{
+    color: white;
+    text-decoration: none;
+}
+/* Cuarta Seccion */
+.personas-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 120px;
+    gap: 10px;
+}
+.personas-section-fotos{
+     height: 400px;
+     width: 500px;
+     border-radius:200px ;
+}
+.titulos-personas-section{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    width: 500px;
+}
+.parrafo-personas-section{
+    width: 500px;
+    color:azure;
+    text-align: center;
+}
+/* Consulta-Seccion */
+main{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.flex {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+    color: white;
+    gap: 12px;
+    margin-bottom: 100px; 
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+    gap: 12px;
+    max-width: 12%;
+    margin: 0 auto;
+    text-align: center;
+}
+.boton{
+    background-color: orange;
+}
+.iconos{
+    margin-top: 20px;   
+}
+/* Conteiner Second section */
+.frontend-zone-seccion2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8%;
+    margin-left: 320px;
+
+}
+.frontend-zone-seccion2 h1{
+    color: white;
+    font-size: 2rem;
+    width: 110%;
+    text-align: center;
+}
+.frontend-zone-seccion2 strong{
+    color: blueviolet;
+}
+.frontend-zone-seccion2 p{
+    color: white;
+    line-height: 35px;
+    width: 110%;
+    text-align: center;
+}
+.front-img2{
+    width: 400px;
+    height:300px;
+    border-radius: 50px;
+    margin-right: 320px;
+}
+
+/* Frontend-Seccion */
+.second-section-first-zone{
+    width: 100%;
+    height: 650px;
+    background-image: url(../img/frontend-seccion-2img.jpg);
+    background-size: cover;
+    margin-bottom: 80px;
+}
+.second-section-first-zone-2{
+    width: 100%;
+    height: 650px;
+    background-image: url(../img/backend-developer22.webp);
+    background-size: cover;
+    margin-bottom: 80px;
+}
+.second-section-first-zone-3{
+    width: 100%;
+    height: 650px;
+    background-image: url(../img/Hombre-Araña.avif);
+    background-size: cover;
+    margin-bottom: 80px;
+}
+.contenedor-s{
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+.contenedor-2{
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+.contenedor-s h1{
+    color: white;
+    font-size: 2rem;
+}
+.contenedor-2 h1{
+    color: white;
+    font-size: 2rem;
+}
+.contenedor-s p{
+    color: white;
+}
+.contenedor-2 p{
+    color: white;
+}
+.img-1{
+    border-radius: 20px;
+    width: 380px;
+    height: 300px;
+}
+strong{
+    color: blueviolet;
+}
+
+/* Backend-Section */
+.second-section-first-zone2{
+    width: 100%;
+    height: 650px;
+    background-image: url(../img/backend-developer333.webp);
+    background-size: cover;
+    margin-bottom: 80px;
+}
+/* Full-Stack-Section */
+.second-section-first-zone3{
+    width: 100%;
+    height: 650px;
+    background-image: url(../img/full-stack-img.jpg);
+    background-size: cover;
+    margin-bottom: 80px;
+}
+/* @media */
+@media(max-width:1400px){
+    /* Personas y opiniones de la gente seccion */
+    .personas-section{
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+
+}
+@media(max-width:731px){
+    .comunidad-seccion{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .chat{
+        width: 80%;
+    }
+    .comunidad{
+        width: 70%;
+        text-align: center;
+    }
+    .comunidad-texto{
+        width: 70%;
+        text-align: center;
+    }
+}
+
+@media(max-width:1000px){
+    @media(max-width:1000px){
+    .encabezado{
+        width: 30%;
+    }
+    .first-zone {
+        display: none;
+        background-repeat: no-repeat;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .second-section-first-zone-2{
+        display: none;
+        background-repeat: no-repeat;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .second-section-first-zone-3{
+        display: none;
+        background-repeat: no-repeat;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+}
+}
+/* Segunda seccion */
+    .contenedor{
+        font-size: 4rem;
+    }
+    .flex-order{
+        display: unset;
+        
+    }
+    .seccion{
+        margin-top: 70px;
+    }
+    .semi-titulos{
+        margin-top: 10px;
+    }
+    .img1{
+        width: 70%;
+        height: 70%;
+    }
+    .button{
+    color: white;
+    background-color: rgb(91, 23, 122);
+    height: 2rem;
+    width: 3.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+/* tercera seccion */
+.flex{
+    margin-bottom: 100px;
+}
+.tercer-seccion{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .texto-zona3{
+        font-size: 2rem;
+    }
+    /* Consulta Seccion */
+    .encabezado{
+        display: flex;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    input{
+        width: 120%;
+        margin-right:60px;
+        text-align: left;
+    }
+    .ampliar{
+        width: 120%;
+    }
+@media(max-width:505px){
+    .contenedor{
+        font-size: 3rem;
+    }
+       .semi-titulos{
+        margin-top: 10px;
+    }
+    /* Opiniones-Seccion */
+    .comunidad-seccion{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    /* Consulta seccion */
+    .encabezado{
+        display:flex ;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2px;
+    }
+    .left{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+        margin-left: 39%;
+    }
+    input{
+        width: 180%;
+    }
+    .ampliar{
+        width: 185%;
+    }
+    /*  */
+    .contenedor-s{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .contenedor-2{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    .parrafo-personas-section{
+        align-items: center;
+        justify-content: center;
+        font-size:0.9rem ; 
+        width: 80%;
+        margin: 0 auto;
+       }
+    
+    .personas-section-fotos{
+        
+        margin-left: 100px ;
+        height: 200px;
+        width: 300px;
+        border-radius:200px ;
+    }
+}
+
+/* Front-Back-FullStack-Media-Section */
+@media(max-width:1268px){
+    .second-section-first-zone{
+        display: none;
+    }
+    .titulo-frontend{
+        width: 100%;
+        text-align: center;
+        padding-left: 220px;
+    }
+    .frontend-zone{
+        display: flex;
+        flex-direction: row;
+        margin-left: 200px;
+        width: 100%;
+    }
+    .front-img{
+        width: 600px;
+        height:400px;
+    }
+}
+
+@media(max-width:1100px){
+    .frontend-zone{
+        display: flex;
+        flex-direction: column;
+    }
+    .front-img{
+        margin-right: 180px;
+    }
+    .responsive-text h1{
+        margin-top: 30px;
+        margin-left: 100px;
+        margin-right:20px;
+    }
+    .responsive-text p{ 
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:636px){
+    .titulo-frontend{
+        width: 180%;
+    }
+    .frontend-zone{
+        display: flex;
+    }
+    .responsive-text{
+        width: 180%;
+    }
+}
+
+@media(max-width:320px){
+    .titulos-personas-section{
+        font-size: 1rem;
+
+    }
+    .parrafo-personas-section{
+        font-size: 0.9rem;
+        width: 50%;
+    }
+    .img-1{
+        width: 100px;
+    }
+}
+
+
