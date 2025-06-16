@@ -314,6 +314,20 @@ strong{
     background-size: cover;
     margin-bottom: 80px;
 }
+/* Footer */
+.wave{
+    height: 150px;
+    overflow: hidden;
+}
+.wave-2{
+    height: 100%;
+    width: 100%;
+}
+.wave-3{
+    stroke: none;
+    fill: #08f;
+}
+
 /* @media */
 @media(max-width:1400px){
     /* Personas y opiniones de la gente seccion */
