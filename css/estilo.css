@@ -19,6 +19,9 @@ a{
 .orange{
     color: orange
 }
+.cabeza{
+    font-size: 25px;
+}
 .encabezado{
     color: rgb(226, 231, 244);
     display: grid;
@@ -26,8 +29,12 @@ a{
     margin: 1%;
 
 }
+li{
+    list-style: none;
+}
 .left{
     margin-left: 30%;
+    font-size: 22px;
 }
 a:hover{
     color: rgb(248, 124, 0);
